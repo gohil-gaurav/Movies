@@ -24,5 +24,4 @@ Welcome to **Movie Info App** – a simple and clean web application that displa
 
 ---
 
-## 📁 Project Structure
 
