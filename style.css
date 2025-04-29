@@ -110,6 +110,7 @@ header nav .search_user input {
     outline: none;
     background: rgb(255, 255, 255, .3);
     margin-right: 10px;
+    color: #fff;
 }
 
 header nav .search_user input::placeholder {
@@ -164,7 +165,7 @@ header nav .search_user .search .card {
     margin-bottom: 5px;
     padding: 3px 0px;
     text-decoration: none;
-    /* display: none; */
+    display: none;
 }
 
 header nav .search_user .search .card::before {
@@ -479,4 +480,48 @@ header section:hover .bi-chevron-right {
 
 header section:hover .bi-chevron-left {
     opacity: 1;
+}
+
+@media screen and (max-width: 1250px) {
+    header video{
+        position: absolute;
+        width: 200%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    header{
+        width: 100%;
+        height: 100%;
+    }
+    header nav{
+        padding: 0 10px;
+        height: 15%;
+    }
+    header nav .logo_ul ul{
+        position: absolute;
+        top: 0px;
+        left: 10px;
+    }
+    header nav .logo_ul ul li{
+        padding: 3px 5px;
+    }
+    header nav .logo_ul ul li a{
+        font-size: 10px;
+    }
+    header .content{
+        padding-left: 10px;
+    }
+    header section{
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    header video{
+        position: absolute;
+        width: 520px;
+        height: 180px;
+    }
 }
