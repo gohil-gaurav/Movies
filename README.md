@@ -2,7 +2,7 @@
 
 Welcome to **Movie Info App** – a simple and clean web application that displays movie details using HTML, CSS, and JavaScript. This project loads data from a local JSON file and displays it dynamically on the page.
 
-🚀 Visit the Live Site : https://movies010.netlify.app
+🚀 **[Visit the Live Site →](https://movies010.netlify.app)**
 
 ---
 
@@ -24,4 +24,5 @@ Welcome to **Movie Info App** – a simple and clean web application that displa
 
 ---
 
+## 📁 Project Structure
 
